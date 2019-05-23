@@ -19,3 +19,4 @@
   - peinture rebondissante
   - zone de piké freeze
   
+plusieurs zones / ambiances graphiques

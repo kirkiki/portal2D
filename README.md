@@ -20,3 +20,4 @@
   - zone de piké freeze
   
 plusieurs zones / ambiances graphiques
+quelque chose doit bouger, background animé par exemple

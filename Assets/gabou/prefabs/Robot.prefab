@@ -959,7 +959,7 @@ Transform:
   m_GameObject: {fileID: 573515726941351269}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.01, y: -0.41, z: 0}
-  m_LocalScale: {x: 6, y: 6, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children:
   - {fileID: 573515726371860783}
   - {fileID: 573515725540051627}
@@ -1060,8 +1060,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc490c85076df20488884288f59d7056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 1500, y: 2000}
-  maxSpeed: {x: 15, y: 100}
+  velocity: {x: 1500, y: 2100}
+  maxSpeed: {x: 15, y: 150}
   portalLeft: {fileID: 0}
   portalRight: {fileID: 0}
 --- !u!114 &644908314259269881

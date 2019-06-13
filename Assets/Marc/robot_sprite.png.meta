@@ -1,0 +1,2102 @@
+fileFormatVersion: 2
+guid: f4db8c8914dc9ec41aee5cbafa11d815
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 29913365377793944
+    second: robot_sprite_0
+  - first:
+      213: 5367159543677022007
+    second: robot_sprite_1
+  - first:
+      213: 1646506797498653802
+    second: robot_sprite_2
+  - first:
+      213: 3657279926045555043
+    second: robot_sprite_3
+  - first:
+      213: -7437645335750480532
+    second: robot_sprite_4
+  - first:
+      213: -9048776460637039785
+    second: robot_sprite_5
+  - first:
+      213: 7341817354003671605
+    second: robot_sprite_6
+  - first:
+      213: -5231335463232500568
+    second: robot_sprite_7
+  - first:
+      213: -127374595294413016
+    second: robot_sprite_8
+  - first:
+      213: -7385543494551535397
+    second: robot_sprite_9
+  - first:
+      213: -8456325568883956810
+    second: robot_sprite_10
+  - first:
+      213: -4492759152420620275
+    second: robot_sprite_11
+  - first:
+      213: -8285725361879142710
+    second: robot_sprite_12
+  - first:
+      213: 1707149744768924599
+    second: robot_sprite_13
+  - first:
+      213: 6457067379988081703
+    second: robot_sprite_14
+  - first:
+      213: 3164762722063540123
+    second: robot_sprite_15
+  - first:
+      213: 4129706154899110911
+    second: robot_sprite_16
+  - first:
+      213: -4713676045799482469
+    second: robot_sprite_17
+  - first:
+      213: -6761651447373627023
+    second: robot_sprite_18
+  - first:
+      213: 1507506532219021838
+    second: robot_sprite_19
+  - first:
+      213: -250296836988406546
+    second: robot_sprite_20
+  - first:
+      213: 2219552601113175332
+    second: robot_sprite_21
+  - first:
+      213: 8264742820539741738
+    second: robot_sprite_22
+  - first:
+      213: -2542952068690588927
+    second: robot_sprite_23
+  - first:
+      213: -7749242200874597006
+    second: robot_sprite_24
+  - first:
+      213: 5151550258853269038
+    second: robot_sprite_25
+  - first:
+      213: 1258686336431102288
+    second: robot_sprite_26
+  - first:
+      213: 1129003174052828815
+    second: robot_sprite_27
+  - first:
+      213: 1882733809645068653
+    second: robot_sprite_28
+  - first:
+      213: 8000607170336361614
+    second: robot_sprite_29
+  - first:
+      213: 2492274915397079353
+    second: robot_sprite_30
+  - first:
+      213: -5685917065043936026
+    second: robot_sprite_31
+  - first:
+      213: 5426607652610848509
+    second: robot_sprite_32
+  - first:
+      213: -7178703218137241010
+    second: robot_sprite_33
+  - first:
+      213: -9025559488944664392
+    second: robot_sprite_34
+  - first:
+      213: -2535503091917966431
+    second: robot_sprite_35
+  - first:
+      213: -4262235148081651648
+    second: robot_sprite_36
+  - first:
+      213: -7550811505827990226
+    second: robot_sprite_37
+  - first:
+      213: 7442905842468627669
+    second: robot_sprite_38
+  - first:
+      213: -2359512546361552623
+    second: robot_sprite_39
+  - first:
+      213: 2421368156052786159
+    second: robot_sprite_40
+  - first:
+      213: -6238964471408356220
+    second: robot_sprite_41
+  - first:
+      213: -2884870385605882613
+    second: robot_sprite_42
+  - first:
+      213: -213571933339790942
+    second: robot_sprite_43
+  - first:
+      213: -2680560491706941227
+    second: robot_sprite_44
+  - first:
+      213: 8349563305148874917
+    second: robot_sprite_45
+  - first:
+      213: 2271972175484639584
+    second: robot_sprite_46
+  - first:
+      213: -5215666557731113166
+    second: robot_sprite_47
+  - first:
+      213: 7064593589674650432
+    second: robot_sprite_48
+  - first:
+      213: 721908251346665278
+    second: robot_sprite_49
+  - first:
+      213: -8895466302989727198
+    second: robot_sprite_50
+  - first:
+      213: -2855715678762091177
+    second: robot_sprite_51
+  - first:
+      213: -7147285210439235820
+    second: robot_sprite_52
+  - first:
+      213: -2852623500519559717
+    second: robot_sprite_53
+  - first:
+      213: -2728913448727452973
+    second: robot_sprite_54
+  - first:
+      213: -5375805954348284005
+    second: robot_sprite_55
+  - first:
+      213: 2041081504019087972
+    second: robot_sprite_56
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 425
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfff23ff65feae4e86d545e27428f0d
+      internalID: 29913365377793944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 425
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031fb2167f0d36a41b05503741994bca
+      internalID: 5367159543677022007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 423
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715f58eacfd902849ae096bd64de085c
+      internalID: 1646506797498653802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 425
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625009fa560a8ef49b05ef64b14289a2
+      internalID: 3657279926045555043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 426
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375b24b61f402f14ebad0ef26a5c60c7
+      internalID: -7437645335750480532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 425
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ddd1dc2b60d4144a38f3f743c8fdc1
+      internalID: -9048776460637039785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 369
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7adc98ce0b135744a74ba54669fc8f2
+      internalID: 7341817354003671605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 372
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39fa9b214179254db9c51fdca0b3f59
+      internalID: -5231335463232500568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 371
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fa53310b9958f4ba6a94325f75799b
+      internalID: -127374595294413016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 371
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e8eed8ab921df49aae1b3bf9b8bb9e
+      internalID: -7385543494551535397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 371
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bc68f1ac2e578458bad3d5259ba9e2
+      internalID: -8456325568883956810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 369
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f3e0ab5fb88914785e821d60a888e7
+      internalID: -4492759152420620275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 315
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be534413bbac274f9f404e09eb7fbfb
+      internalID: -8285725361879142710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 315
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c53ca1745629054b80fba7a780aa966
+      internalID: 1707149744768924599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 315
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bdc523fe8c3fb47adcbffc27fd0318
+      internalID: 6457067379988081703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 315
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdb70f4e782a734392790c8f59cdad0
+      internalID: 3164762722063540123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 315
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2bed5663175964c9659a552d27d0b9
+      internalID: 4129706154899110911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 315
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907acedf3c28dcd42af615de72fb3a0a
+      internalID: -4713676045799482469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 315
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb90e563997dc5e4fb96f1f7c5774bc6
+      internalID: -6761651447373627023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 248
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900967a949698de45b1edd5c2e933ca9
+      internalID: 1507506532219021838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 250
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df39bb5f99058a49aaf20ff92833d54
+      internalID: -250296836988406546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 249
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37514002a0406d44a61152502406b59
+      internalID: 2219552601113175332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 248
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf43674236937b04ea2073bdc034c854
+      internalID: 8264742820539741738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 248
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445519b563ed4d14596fb7049400b6e0
+      internalID: -2542952068690588927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 250
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b92faec7c5a74948b772f09e6b967e6
+      internalID: -7749242200874597006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 181
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a848a48768d3c4197bad1ff3c3911d
+      internalID: 5151550258853269038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 186
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474c066fa7c945243852abec1ccde396
+      internalID: 1258686336431102288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 186
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16d4c25164bcbd42b7ef9f1ea0c32e5
+      internalID: 1129003174052828815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 186
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f1db0aa66eb014cadaac01c0426a8b
+      internalID: 1882733809645068653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 186
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9770eb31c091b6a4599112bf5cfafe17
+      internalID: 8000607170336361614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 186
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5227d66aec358eb4aa318f11cdf5b9e4
+      internalID: 2492274915397079353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 136
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0154cc1e93f66a4b8456c57d0911d00
+      internalID: -5685917065043936026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 134
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0c666da6bc9f44bb87d216d6337711
+      internalID: 5426607652610848509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 134
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade9d75611d773b44876f7a7113d2318
+      internalID: -7178703218137241010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 136
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eed0e01879ec244babef34692a19d54
+      internalID: -9025559488944664392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 135
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa7ec014d4445c45a22b4267ef409d7
+      internalID: -2535503091917966431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 136
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebee0f9943fe004eaa937c6d33648f1
+      internalID: -4262235148081651648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 79
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2882d6c828ee4bd4fa2b5b3469c58d09
+      internalID: -7550811505827990226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 76
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f49fecb39196244fa9a5404cc397fc9
+      internalID: 7442905842468627669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 78
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbf0c46d37d9fc4f9bb279e2980cf89
+      internalID: -2359512546361552623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 77
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aa7bb91148625439ddba60ec941d2f
+      internalID: 2421368156052786159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 78
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf10bf96f06c0c4fa22b36317b35ac0
+      internalID: -6238964471408356220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 10
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0002dba81574c6c4182bc452ecd7c77d
+      internalID: -2884870385605882613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 12
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42207738b7649043b1312d4611872e8
+      internalID: -213571933339790942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 12
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a3ce5371e8ac848ab90cf7ba164490
+      internalID: -2680560491706941227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 12
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e97ee7f1323954a9fa01cd8522864e
+      internalID: 8349563305148874917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 12
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0823537d543dfa94d805f56e2aa76839
+      internalID: 2271972175484639584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 11
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf23c9683f8439409275217c192b4ec
+      internalID: -5215666557731113166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 12
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47245e070d0ec674784d66963e4cd357
+      internalID: 7064593589674650432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 11
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3114e9514089246b1fbb43225636e3
+      internalID: 721908251346665278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 12
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9604b316caf49b84eb8b08ee76a33506
+      internalID: -8895466302989727198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 12
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdcd1ccd8aed224f86d8226cdc36638
+      internalID: -2855715678762091177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 12
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f83b5f0c4b14f4b960708ab7cec78e
+      internalID: -7147285210439235820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 12
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a556fa5da2c9d42bb2997c390a3b65
+      internalID: -2852623500519559717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_54
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 11
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8101829a776e04da61b974a836f052
+      internalID: -2728913448727452973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_55
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 11
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa35c9d582cfb0449531d825fc60dbd
+      internalID: -5375805954348284005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_sprite_56
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 12
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c06c46ac36a564c806e6bcd701dc08
+      internalID: 2041081504019087972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape:
+    - - {x: -267, y: -181.5}
+      - {x: -276, y: -181.5}
+      - {x: -290, y: -206.5}
+      - {x: -291, y: -211.5}
+      - {x: -291, y: -224.5}
+      - {x: -283, y: -230.5}
+      - {x: -265, y: -230.5}
+      - {x: -259, y: -215.5}
+      - {x: -259, y: -188.5}
+      - {x: -264, y: -183.5}
+    - - {x: -238, y: -181.5}
+      - {x: -251, y: -185.5}
+      - {x: -254, y: -196.5}
+      - {x: -254, y: -230.5}
+      - {x: -233, y: -230.5}
+      - {x: -222, y: -213.5}
+      - {x: -222, y: -196.5}
+      - {x: -229, y: -181.5}
+    - - {x: -200, y: -181.5}
+      - {x: -217, y: -193.5}
+      - {x: -217, y: -230.5}
+      - {x: -191, y: -230.5}
+      - {x: -185, y: -219.5}
+      - {x: -185, y: -192.5}
+      - {x: -193, y: -181.5}
+    - - {x: -161, y: -181.5}
+      - {x: -167, y: -184.5}
+      - {x: -179, y: -201.5}
+      - {x: -179, y: -225.5}
+      - {x: -173, y: -230.5}
+      - {x: -163, y: -230.5}
+      - {x: -145, y: -222.5}
+      - {x: -145, y: -193.5}
+      - {x: -150, y: -181.5}
+    - - {x: -134, y: -181.5}
+      - {x: -141, y: -197.5}
+      - {x: -141, y: -230.5}
+      - {x: -120, y: -230.5}
+      - {x: -107, y: -223.5}
+      - {x: -107, y: -187.5}
+      - {x: -112, y: -181.5}
+    - - {x: -68, y: -221.5}
+      - {x: -62, y: -219.5}
+      - {x: -62, y: -192.5}
+      - {x: -69, y: -182.5}
+      - {x: -78, y: -182.5}
+      - {x: -97, y: -203.5}
+      - {x: -97, y: -228.5}
+      - {x: -94, y: -230.5}
+      - {x: -79, y: -230.5}
+      - {x: -74, y: -229.5}
+      - {x: -72, y: -223.5}
+      - {x: -74, y: -221.5}
+    - - {x: -24, y: -197.5}
+      - {x: -27, y: -198.5}
+      - {x: -28, y: -184.5}
+      - {x: -30, y: -182.5}
+      - {x: -53, y: -182.5}
+      - {x: -57, y: -199.5}
+      - {x: -57, y: -230.5}
+      - {x: -30, y: -230.5}
+      - {x: -22, y: -215.5}
+      - {x: -22, y: -199.5}
+    - - {x: 20, y: -196.5}
+      - {x: 17, y: -197.5}
+      - {x: 17, y: -184.5}
+      - {x: 13, y: -181.5}
+      - {x: 6, y: -181.5}
+      - {x: -10, y: -197.5}
+      - {x: -10, y: -230.5}
+      - {x: 10, y: -230.5}
+      - {x: 18, y: -222.5}
+      - {x: 22, y: -207.5}
+      - {x: 22, y: -196.5}
+    - - {x: 57, y: -185.5}
+      - {x: 52, y: -181.5}
+      - {x: 48, y: -181.5}
+      - {x: 41, y: -188.5}
+      - {x: 30, y: -207.5}
+      - {x: 30, y: -230.5}
+      - {x: 51, y: -230.5}
+      - {x: 62, y: -226.5}
+      - {x: 62, y: -198.5}
+      - {x: 60, y: -196.5}
+      - {x: 57, y: -197.5}
+    - - {x: 92, y: -181.5}
+      - {x: 86, y: -181.5}
+      - {x: 70, y: -203.5}
+      - {x: 70, y: -230.5}
+      - {x: 93, y: -230.5}
+      - {x: 101, y: -215.5}
+      - {x: 101, y: -195.5}
+      - {x: 93, y: -182.5}
+    - - {x: 133, y: -195.5}
+      - {x: 133, y: -198.5}
+      - {x: 133, y: -196.5}
+      - {x: 134, y: -183.5}
+      - {x: 129, y: -181.5}
+      - {x: 123, y: -181.5}
+      - {x: 110, y: -198.5}
+      - {x: 105, y: -215.5}
+      - {x: 105, y: -227.5}
+      - {x: 110, y: -230.5}
+      - {x: 129, y: -230.5}
+      - {x: 139, y: -206.5}
+      - {x: 139, y: -196.5}
+      - {x: 136, y: -194.5}
+    - - {x: 167, y: -181.5}
+      - {x: 156, y: -181.5}
+      - {x: 139, y: -217.5}
+      - {x: 139, y: -226.5}
+      - {x: 146, y: -230.5}
+      - {x: 157, y: -230.5}
+      - {x: 163, y: -229.5}
+      - {x: 169, y: -223.5}
+      - {x: 174, y: -212.5}
+      - {x: 174, y: -196.5}
+    - - {x: 194, y: -181.5}
+      - {x: 179, y: -209.5}
+      - {x: 179, y: -223.5}
+      - {x: 180, y: -227.5}
+      - {x: 184, y: -230.5}
+      - {x: 212, y: -230.5}
+      - {x: 215, y: -217.5}
+      - {x: 215, y: -187.5}
+      - {x: 208, y: -181.5}
+    - - {x: 254, y: -207.5}
+      - {x: 254, y: -191.5}
+      - {x: 246, y: -181.5}
+      - {x: 240, y: -181.5}
+      - {x: 219, y: -206.5}
+      - {x: 219, y: -230.5}
+      - {x: 240, y: -230.5}
+      - {x: 248, y: -227.5}
+      - {x: 244, y: -223.5}
+      - {x: 241, y: -223.5}
+      - {x: 245, y: -220.5}
+    - - {x: 279, y: -181.5}
+      - {x: 264, y: -206.5}
+      - {x: 264, y: -228.5}
+      - {x: 269, y: -230.5}
+      - {x: 288, y: -230.5}
+      - {x: 297, y: -214.5}
+      - {x: 297, y: -187.5}
+      - {x: 295, y: -181.5}
+    - - {x: -264, y: -132.5}
+      - {x: -267, y: -133.5}
+      - {x: -267, y: -137.5}
+      - {x: -268, y: -135.5}
+      - {x: -266, y: -132.5}
+      - {x: -266, y: -129.5}
+      - {x: -269, y: -115.5}
+      - {x: -273, y: -113.5}
+      - {x: -280, y: -113.5}
+      - {x: -296, y: -129.5}
+      - {x: -296, y: -163.5}
+      - {x: -270, y: -163.5}
+      - {x: -262, y: -140.5}
+      - {x: -262, y: -134.5}
+    - - {x: -236, y: -118.5}
+      - {x: -251, y: -138.5}
+      - {x: -251, y: -158.5}
+      - {x: -240, y: -163.5}
+      - {x: -224, y: -163.5}
+      - {x: -213, y: -151.5}
+      - {x: -213, y: -127.5}
+      - {x: -215, y: -118.5}
+    - - {x: -175, y: -120.5}
+      - {x: -190, y: -133.5}
+      - {x: -203, y: -147.5}
+      - {x: -203, y: -153.5}
+      - {x: -200, y: -163.5}
+      - {x: -178, y: -163.5}
+      - {x: -164, y: -151.5}
+      - {x: -164, y: -122.5}
+      - {x: -168, y: -120.5}
+    - - {x: -123, y: -125.5}
+      - {x: -150, y: -140.5}
+      - {x: -155, y: -157.5}
+      - {x: -155, y: -163.5}
+      - {x: -117, y: -163.5}
+      - {x: -113, y: -149.5}
+      - {x: -113, y: -127.5}
+      - {x: -114, y: -125.5}
+    - - {x: -95, y: -136.5}
+      - {x: -109, y: -149.5}
+      - {x: -109, y: -163.5}
+      - {x: -73, y: -163.5}
+      - {x: -65, y: -157.5}
+      - {x: -61, y: -144.5}
+      - {x: -61, y: -136.5}
+    - - {x: -278, y: -105.5}
+      - {x: -259, y: -97.5}
+      - {x: -258, y: -90.5}
+      - {x: -258, y: -66.5}
+      - {x: -263, y: -65.5}
+      - {x: -294, y: -65.5}
+      - {x: -296, y: -71.5}
+      - {x: -296, y: -105.5}
+      - {x: -295, y: -106.5}
+      - {x: -284, y: -106.5}
+      - {x: -281, y: -103.5}
+      - {x: -281, y: -100.5}
+      - {x: -281, y: -101.5}
+    - - {x: -230, y: -65.5}
+      - {x: -231, y: -68.5}
+      - {x: -232, y: -66.5}
+      - {x: -235, y: -64.5}
+      - {x: -247, y: -64.5}
+      - {x: -251, y: -71.5}
+      - {x: -251, y: -102.5}
+      - {x: -249, y: -106.5}
+      - {x: -219, y: -106.5}
+      - {x: -215, y: -88.5}
+      - {x: -215, y: -67.5}
+      - {x: -227, y: -64.5}
+    - - {x: -205, y: -64.5}
+      - {x: -212, y: -70.5}
+      - {x: -212, y: -88.5}
+      - {x: -207, y: -106.5}
+      - {x: -185, y: -106.5}
+      - {x: -175, y: -94.5}
+      - {x: -175, y: -68.5}
+      - {x: -183, y: -64.5}
+    - - {x: -163, y: -64.5}
+      - {x: -168, y: -67.5}
+      - {x: -168, y: -98.5}
+      - {x: -166, y: -106.5}
+      - {x: -136, y: -106.5}
+      - {x: -131, y: -88.5}
+      - {x: -131, y: -67.5}
+      - {x: -149, y: -64.5}
+    - - {x: -100, y: -65.5}
+      - {x: -102, y: -65.5}
+      - {x: -103, y: -68.5}
+      - {x: -102, y: -72.5}
+      - {x: -103, y: -70.5}
+      - {x: -104, y: -65.5}
+      - {x: -125, y: -65.5}
+      - {x: -125, y: -106.5}
+      - {x: -96, y: -106.5}
+      - {x: -91, y: -88.5}
+      - {x: -89, y: -80.5}
+      - {x: -89, y: -70.5}
+    - - {x: -85, y: -64.5}
+      - {x: -85, y: -106.5}
+      - {x: -53, y: -106.5}
+      - {x: -53, y: -66.5}
+      - {x: -56, y: -64.5}
+    - - {x: -235, y: -96.5}
+      - {x: -235, y: -99.5}
+      - {x: -236, y: -99.5}
+    - - {x: -293, y: -16.5}
+      - {x: -294, y: -17.5}
+      - {x: -294, y: -57.5}
+      - {x: -263, y: -57.5}
+      - {x: -257, y: -42.5}
+      - {x: -257, y: -19.5}
+      - {x: -268, y: -16.5}
+    - - {x: -228, y: -8.5}
+      - {x: -246, y: -19.5}
+      - {x: -246, y: -51.5}
+      - {x: -245, y: -56.5}
+      - {x: -215, y: -56.5}
+      - {x: -212, y: -30.5}
+      - {x: -212, y: -8.5}
+    - - {x: -183, y: -56.5}
+      - {x: -174, y: -56.5}
+      - {x: -172, y: -54.5}
+      - {x: -172, y: -52.5}
+      - {x: -175, y: -49.5}
+      - {x: -171, y: -44.5}
+      - {x: -171, y: -5.5}
+      - {x: -174, y: -3.5}
+      - {x: -184, y: -3.5}
+      - {x: -200, y: -20.5}
+      - {x: -200, y: -56.5}
+      - {x: -187, y: -56.5}
+      - {x: -185, y: -54.5}
+      - {x: -186, y: -49.5}
+      - {x: -185, y: -54.5}
+    - - {x: -137, y: -15.5}
+      - {x: -138, y: -18.5}
+      - {x: -136, y: -20.5}
+      - {x: -137, y: -20.5}
+      - {x: -138, y: -17.5}
+      - {x: -144, y: -2.5}
+      - {x: -145, y: 0.5}
+      - {x: -153, y: 0.5}
+      - {x: -157, y: -3.5}
+      - {x: -157, y: -56.5}
+      - {x: -129, y: -56.5}
+      - {x: -128, y: -55.5}
+      - {x: -128, y: -19.5}
+      - {x: -134, y: -14.5}
+    - - {x: -112, y: -3.5}
+      - {x: -116, y: -15.5}
+      - {x: -116, y: -56.5}
+      - {x: -87, y: -56.5}
+      - {x: -87, y: -11.5}
+      - {x: -99, y: -3.5}
+    - - {x: -74, y: -6.5}
+      - {x: -77, y: -7.5}
+      - {x: -78, y: -16.5}
+      - {x: -78, y: -56.5}
+      - {x: -49, y: -56.5}
+      - {x: -49, y: -13.5}
+      - {x: -60, y: -6.5}
+    - - {x: -279, y: -48.5}
+      - {x: -280, y: -48.5}
+      - {x: -279, y: -50.5}
+      - {x: -280, y: -51.5}
+    - - {x: -143, y: -48.5}
+      - {x: -142, y: -46.5}
+      - {x: -141, y: -49.5}
+      - {x: -142, y: -50.5}
+    - - {x: -65, y: -48.5}
+      - {x: -63, y: -49.5}
+      - {x: -64, y: -50.5}
+      - {x: -64, y: -49.5}
+    - - {x: -226, y: -19.5}
+      - {x: -225, y: -21.5}
+      - {x: -225, y: -20.5}
+    - - {x: -47, y: 43.5}
+      - {x: -56, y: 48.5}
+      - {x: -83, y: 48.5}
+      - {x: -83, y: 7.5}
+      - {x: -48, y: 7.5}
+      - {x: -46, y: 12.5}
+      - {x: -46, y: 42.5}
+    - - {x: -248, y: 61.5}
+      - {x: -250, y: 60.5}
+      - {x: -251, y: 39.5}
+      - {x: -251, y: 11.5}
+      - {x: -250, y: 8.5}
+      - {x: -222, y: 8.5}
+      - {x: -222, y: 41.5}
+      - {x: -236, y: 61.5}
+    - - {x: -289, y: 58.5}
+      - {x: -292, y: 48.5}
+      - {x: -292, y: 11.5}
+      - {x: -291, y: 9.5}
+      - {x: -263, y: 9.5}
+      - {x: -263, y: 53.5}
+      - {x: -275, y: 58.5}
+    - - {x: -213, y: 22.5}
+      - {x: -209, y: 9.5}
+      - {x: -180, y: 9.5}
+      - {x: -180, y: 40.5}
+      - {x: -186, y: 65.5}
+      - {x: -206, y: 65.5}
+      - {x: -213, y: 45.5}
+    - - {x: -149, y: 62.5}
+      - {x: -169, y: 43.5}
+      - {x: -169, y: 9.5}
+      - {x: -140, y: 9.5}
+      - {x: -140, y: 40.5}
+      - {x: -142, y: 58.5}
+      - {x: -144, y: 61.5}
+      - {x: -147, y: 62.5}
+    - - {x: -108, y: 56.5}
+      - {x: -123, y: 48.5}
+      - {x: -127, y: 41.5}
+      - {x: -127, y: 18.5}
+      - {x: -125, y: 9.5}
+      - {x: -95, y: 9.5}
+      - {x: -94, y: 10.5}
+      - {x: -94, y: 56.5}
+    - - {x: -278, y: 16.5}
+      - {x: -277, y: 17.5}
+      - {x: -278, y: 18.5}
+      - {x: -277, y: 15.5}
+      - {x: -278, y: 14.5}
+      - {x: -277, y: 14.5}
+    - - {x: -113, y: 16.5}
+      - {x: -112, y: 17.5}
+      - {x: -112, y: 18.5}
+      - {x: -113, y: 18.5}
+    - - {x: -153, y: 17.5}
+      - {x: -153, y: 18.5}
+      - {x: -154, y: 20.5}
+      - {x: -156, y: 14.5}
+    - - {x: -230, y: 111.5}
+      - {x: -231, y: 108.5}
+      - {x: -234, y: 114.5}
+      - {x: -245, y: 121.5}
+      - {x: -252, y: 121.5}
+      - {x: -252, y: 94.5}
+      - {x: -249, y: 74.5}
+      - {x: -246, y: 72.5}
+      - {x: -223, y: 72.5}
+      - {x: -223, y: 105.5}
+      - {x: -227, y: 113.5}
+    - - {x: -211, y: 121.5}
+      - {x: -211, y: 72.5}
+      - {x: -186, y: 72.5}
+      - {x: -184, y: 73.5}
+      - {x: -184, y: 111.5}
+      - {x: -200, y: 121.5}
+    - - {x: -279, y: 121.5}
+      - {x: -294, y: 121.5}
+      - {x: -294, y: 88.5}
+      - {x: -292, y: 73.5}
+      - {x: -269, y: 73.5}
+      - {x: -263, y: 75.5}
+      - {x: -263, y: 113.5}
+    - - {x: -163, y: 121.5}
+      - {x: -173, y: 121.5}
+      - {x: -173, y: 85.5}
+      - {x: -167, y: 73.5}
+      - {x: -144, y: 73.5}
+      - {x: -144, y: 109.5}
+      - {x: -147, y: 113.5}
+    - - {x: -117, y: 123.5}
+      - {x: -129, y: 123.5}
+      - {x: -134, y: 106.5}
+      - {x: -134, y: 80.5}
+      - {x: -127, y: 73.5}
+      - {x: -107, y: 73.5}
+      - {x: -99, y: 85.5}
+      - {x: -99, y: 112.5}
+      - {x: -100, y: 115.5}
+    - - {x: -52, y: 109.5}
+      - {x: -55, y: 108.5}
+      - {x: -60, y: 121.5}
+      - {x: -66, y: 124.5}
+      - {x: -74, y: 124.5}
+      - {x: -89, y: 103.5}
+      - {x: -89, y: 88.5}
+      - {x: -79, y: 73.5}
+      - {x: -59, y: 73.5}
+      - {x: -50, y: 84.5}
+      - {x: -50, y: 107.5}
+    - - {x: -20, y: 124.5}
+      - {x: -32, y: 119.5}
+      - {x: -42, y: 98.5}
+      - {x: -42, y: 81.5}
+      - {x: -41, y: 73.5}
+      - {x: -9, y: 73.5}
+      - {x: -3, y: 90.5}
+      - {x: -3, y: 113.5}
+      - {x: -6, y: 124.5}
+    - - {x: -261, y: 168.5}
+      - {x: -264, y: 177.5}
+      - {x: -269, y: 180.5}
+      - {x: -273, y: 180.5}
+      - {x: -283, y: 168.5}
+      - {x: -291, y: 147.5}
+      - {x: -291, y: 132.5}
+      - {x: -281, y: 127.5}
+      - {x: -274, y: 127.5}
+      - {x: -272, y: 129.5}
+      - {x: -264, y: 138.5}
+      - {x: -259, y: 154.5}
+      - {x: -259, y: 164.5}
+    - - {x: -137, y: 163.5}
+      - {x: -138, y: 177.5}
+      - {x: -141, y: 180.5}
+      - {x: -151, y: 180.5}
+      - {x: -167, y: 168.5}
+      - {x: -167, y: 143.5}
+      - {x: -162, y: 127.5}
+      - {x: -137, y: 127.5}
+      - {x: -132, y: 149.5}
+      - {x: -132, y: 164.5}
+      - {x: -134, y: 164.5}
+    - - {x: -88, y: 163.5}
+      - {x: -91, y: 162.5}
+      - {x: -92, y: 167.5}
+      - {x: -93, y: 176.5}
+      - {x: -96, y: 179.5}
+      - {x: -100, y: 180.5}
+      - {x: -101, y: 180.5}
+      - {x: -120, y: 158.5}
+      - {x: -120, y: 147.5}
+      - {x: -118, y: 131.5}
+      - {x: -110, y: 129.5}
+      - {x: -109, y: 132.5}
+      - {x: -108, y: 134.5}
+      - {x: -109, y: 135.5}
+      - {x: -108, y: 132.5}
+      - {x: -106, y: 130.5}
+      - {x: -102, y: 129.5}
+      - {x: -99, y: 128.5}
+      - {x: -94, y: 128.5}
+      - {x: -91, y: 133.5}
+      - {x: -86, y: 153.5}
+      - {x: -86, y: 163.5}
+    - - {x: -60, y: 180.5}
+      - {x: -63, y: 179.5}
+      - {x: -78, y: 158.5}
+      - {x: -78, y: 133.5}
+      - {x: -71, y: 128.5}
+      - {x: -49, y: 128.5}
+      - {x: -45, y: 153.5}
+      - {x: -45, y: 166.5}
+      - {x: -52, y: 180.5}
+    - - {x: -222, y: 165.5}
+      - {x: -225, y: 164.5}
+      - {x: -225, y: 160.5}
+      - {x: -225, y: 163.5}
+      - {x: -226, y: 166.5}
+      - {x: -226, y: 176.5}
+      - {x: -229, y: 179.5}
+      - {x: -233, y: 180.5}
+      - {x: -252, y: 157.5}
+      - {x: -252, y: 135.5}
+      - {x: -245, y: 129.5}
+      - {x: -237, y: 129.5}
+      - {x: -234, y: 130.5}
+      - {x: -224, y: 141.5}
+      - {x: -220, y: 156.5}
+      - {x: -220, y: 163.5}
+    - - {x: -181, y: 164.5}
+      - {x: -184, y: 163.5}
+      - {x: -185, y: 177.5}
+      - {x: -190, y: 180.5}
+      - {x: -194, y: 180.5}
+      - {x: -213, y: 163.5}
+      - {x: -213, y: 141.5}
+      - {x: -210, y: 130.5}
+      - {x: -204, y: 129.5}
+      - {x: -189, y: 129.5}
+      - {x: -180, y: 141.5}
+      - {x: -179, y: 157.5}
+      - {x: -179, y: 163.5}
+    - - {x: -216, y: 233.5}
+      - {x: -217, y: 229.5}
+      - {x: -217, y: 184.5}
+      - {x: -212, y: 183.5}
+      - {x: -188, y: 183.5}
+      - {x: -188, y: 222.5}
+      - {x: -202, y: 233.5}
+    - - {x: -292, y: 234.5}
+      - {x: -292, y: 184.5}
+      - {x: -264, y: 184.5}
+      - {x: -263, y: 188.5}
+      - {x: -263, y: 233.5}
+      - {x: -266, y: 234.5}
+    - - {x: -248, y: 233.5}
+      - {x: -249, y: 232.5}
+      - {x: -254, y: 214.5}
+      - {x: -254, y: 187.5}
+      - {x: -253, y: 184.5}
+      - {x: -224, y: 184.5}
+      - {x: -224, y: 222.5}
+      - {x: -238, y: 233.5}
+    - - {x: -161, y: 224.5}
+      - {x: -162, y: 221.5}
+      - {x: -160, y: 219.5}
+      - {x: -161, y: 219.5}
+      - {x: -162, y: 222.5}
+      - {x: -171, y: 234.5}
+      - {x: -172, y: 234.5}
+      - {x: -177, y: 232.5}
+      - {x: -182, y: 218.5}
+      - {x: -182, y: 184.5}
+      - {x: -154, y: 184.5}
+      - {x: -153, y: 186.5}
+      - {x: -153, y: 219.5}
+      - {x: -157, y: 230.5}
+    - - {x: -135, y: 233.5}
+      - {x: -140, y: 228.5}
+      - {x: -140, y: 184.5}
+      - {x: -111, y: 184.5}
+      - {x: -111, y: 224.5}
+      - {x: -130, y: 233.5}
+    - - {x: -75, y: 225.5}
+      - {x: -89, y: 233.5}
+      - {x: -96, y: 233.5}
+      - {x: -100, y: 224.5}
+      - {x: -100, y: 185.5}
+      - {x: -99, y: 184.5}
+      - {x: -72, y: 184.5}
+      - {x: -71, y: 187.5}
+      - {x: -71, y: 207.5}
+      - {x: -72, y: 220.5}
+    - - {x: -166, y: 192.5}
+      - {x: -167, y: 193.5}
+      - {x: -167, y: 189.5}
+      - {x: -166, y: 189.5}
+    - - {x: -126, y: 192.5}
+      - {x: -124, y: 192.5}
+      - {x: -125, y: 190.5}
+      - {x: -125, y: 191.5}
+    - - {x: -86, y: 192.5}
+      - {x: -84, y: 192.5}
+      - {x: -85, y: 190.5}
+      - {x: -85, y: 191.5}
+    bones: []
+    spriteID: 24938f671a5745b49b29e7841a4e9aef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

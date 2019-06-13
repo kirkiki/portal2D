@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public Vector2 velocity = new Vector2(100, 200);
-    public float maxSpeed = 15;
+    public Vector2 maxSpeed = new Vector2(15, 25);
     public GameObject portalLeft;
     public GameObject portalRight;
 
@@ -47,10 +47,15 @@ public class Player : MonoBehaviour
             body2D.AddForce(Vector2.up * velocity.y);
         }
 
-        if (Mathf.Abs(body2D.velocity.x) > maxSpeed)
+        if (Mathf.Abs(body2D.velocity.x) > maxSpeed.x)
         {
-            var speed = body2D.velocity.x > 0 ? maxSpeed : -maxSpeed;
+            var speed = body2D.velocity.x > 0 ? maxSpeed.x : -maxSpeed.x;
             body2D.velocity = new Vector2(speed, body2D.velocity.y);
+        }
+        if (body2D.velocity.y > maxSpeed.y)
+        {
+            var speed = maxSpeed.y;
+            body2D.velocity = new Vector2(body2D.velocity.x, speed);
         }
 
         transform.localScale = scale;

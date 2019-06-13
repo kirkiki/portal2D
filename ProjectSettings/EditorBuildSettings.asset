@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/gabou/scenes/MainMenu.unity
+    guid: 7bc74b40dc0307543ba6354707406e7d
+  - enabled: 1
+    path: Assets/gabou/scenes/Stage_1.unity
+    guid: 5ec581e77ed7e5d4f94a47f68f3dd159
+  - enabled: 1
+    path: Assets/gabou/scenes/Stage_2.unity
+    guid: 03ed59d850115f8458a3106704b3afb1
+  m_configObjects: {}

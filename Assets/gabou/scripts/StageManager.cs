@@ -7,15 +7,17 @@ public class StageManager : MonoBehaviour
 {
     public int currentStage;
     public bool ended;
+    public bool lost;
+    public bool paused;
     public GameObject player;
     public GameObject start;
     public GameObject end;
     public GameObject pauseScreen;
+    public GameObject lostScreen;
     public GameObject finishScreen;
     public GameObject nextButton;
 
     private Rigidbody2D playerBody2D;
-    private bool paused;
 
     void Start()
     {
@@ -27,8 +29,11 @@ public class StageManager : MonoBehaviour
         playerBody2D = player.GetComponent<Rigidbody2D>();
         playerBody2D.position = start.transform.localPosition;
         pauseScreen.SetActive(false);
+        lostScreen.SetActive(false);
         finishScreen.SetActive(false);
         paused = false;
+        ended = false;
+        lost = false;
         Time.timeScale = 1;
 
         if (GameManager.stageCount <= currentStage)
@@ -44,9 +49,13 @@ public class StageManager : MonoBehaviour
             Pause();
         }
 
+        if (lost)
+        {
+            lostScreen.SetActive(true);
+        }
+
         if (ended)
         {
-            Time.timeScale = 0;
             finishScreen.SetActive(true);
             if (GameManager.stageCount > currentStage)
             {

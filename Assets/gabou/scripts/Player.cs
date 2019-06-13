@@ -12,57 +12,84 @@ public class Player : MonoBehaviour
     private Rigidbody2D body2D;
     private SpriteRenderer rendered2D;
     private PlayerController controller;
+    private StageManager stage;
+    private Animator animator;
+    private float defaultScale;
     
     void Start()
     {
         body2D = GetComponent<Rigidbody2D>();
         rendered2D = GetComponent<SpriteRenderer>();
         controller = GetComponent<PlayerController>();
+        stage = GetComponentInParent<StageManager>();
+        animator = GetComponent<Animator>();
+        defaultScale = transform.localScale.x;
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!stage.paused && !stage.lost && !stage.ended)
         {
-            SetPortal(portalLeft);
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            SetPortal(portalRight);
+            if (Input.GetMouseButtonDown(0))
+            {
+                SetPortal(portalLeft);
+            }
+            else if (Input.GetMouseButtonDown(1))
+            {
+                SetPortal(portalRight);
+            }
+            else
+            {
+                animator.SetBool("shooting", false);
+            }
+
+            if (controller.standing)
+            {
+                animator.SetBool("standing", true);
+            }
+            else
+            {
+                animator.SetBool("standing", false);
+            }
         }
     }
 
     void FixedUpdate()
     {
-        var scale = transform.localScale;
-
-        if (controller.moving.x != 0)
+        if (!stage.paused && !stage.lost && !stage.ended)
         {
-            body2D.AddForce(new Vector2(controller.moving.x, 0) * velocity.x);
-            scale.x = controller.moving.x;
-        }
+            var scale = transform.localScale;
 
-        if (controller.standing && controller.moving.y > 0)
-        {
-            body2D.AddForce(Vector2.up * velocity.y);
-        }
+            if (controller.moving.x != 0)
+            {
+                body2D.AddForce(new Vector2(controller.moving.x, 0) * velocity.x);
+                scale.x = defaultScale * controller.moving.x;
+            }
 
-        if (Mathf.Abs(body2D.velocity.x) > maxSpeed.x)
-        {
-            var speed = body2D.velocity.x > 0 ? maxSpeed.x : -maxSpeed.x;
-            body2D.velocity = new Vector2(speed, body2D.velocity.y);
-        }
-        if (body2D.velocity.y > maxSpeed.y)
-        {
-            var speed = maxSpeed.y;
-            body2D.velocity = new Vector2(body2D.velocity.x, speed);
-        }
+            if (controller.standing && controller.moving.y > 0)
+            {
+                body2D.AddForce(Vector2.up * velocity.y);
+            }
 
-        transform.localScale = scale;
+            if (Mathf.Abs(body2D.velocity.x) > maxSpeed.x)
+            {
+                var speed = body2D.velocity.x > 0 ? maxSpeed.x : -maxSpeed.x;
+                body2D.velocity = new Vector2(speed, body2D.velocity.y);
+            }
+            if (body2D.velocity.y > maxSpeed.y)
+            {
+                var speed = maxSpeed.y;
+                body2D.velocity = new Vector2(body2D.velocity.x, speed);
+            }
+
+            transform.localScale = scale;
+        }
     }
 
     void SetPortal(GameObject portal)
     {
+        animator.SetBool("shooting", true);
+
         var worldMousePosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
         var direction = worldMousePosition - transform.position;
         direction.Normalize();
@@ -72,7 +99,6 @@ public class Player : MonoBehaviour
 
         if (collider && collider.tag.Contains("PortalZone"))
         {
-            Debug.Log("Portal");
             portal.transform.position = collider.transform.position;
             portal.transform.rotation = collider.transform.rotation;
             portal.SetActive(true);

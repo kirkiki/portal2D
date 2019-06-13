@@ -70,6 +70,7 @@ public class Player : MonoBehaviour
             Debug.Log("Portal");
             portal.transform.position = collider.transform.position;
             portal.transform.rotation = collider.transform.rotation;
+            portal.SetActive(true);
         }
     }
 }

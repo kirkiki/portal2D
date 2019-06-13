@@ -9,7 +9,7 @@ public class Portal : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collider)
     {
         var teleportable = collider.gameObject.GetComponent<Teleportable>();
-        if (teleportable && !teleportable.teleporting)
+        if (teleportable && otherPortail.activeSelf && !teleportable.teleporting)
         {
             teleportable.teleporting = true;
             var colliderTransform = collider.gameObject.GetComponent<Transform>();

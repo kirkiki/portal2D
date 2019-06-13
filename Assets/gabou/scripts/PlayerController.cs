@@ -18,19 +18,17 @@ public class PlayerController : MonoBehaviour
     {
         moving.x = moving.y = 0;
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        var x = Input.GetAxisRaw("Horizontal");
+        var y = Input.GetAxisRaw("Jump");
+
+        if (x != 0)
         {
-            moving.x += 1;
+            moving.x = x;
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (y != 0)
         {
-            moving.x -= 1;
-        }
-
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space))
-        {
-            moving.y += 1;
+            moving.y = y;
         }
     }
 }

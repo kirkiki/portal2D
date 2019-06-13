@@ -13,16 +13,25 @@ public class StandingCheck : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        controller.standing = true;
+        if (collider.tag.Contains("Ground"))
+        {
+            controller.standing = true;
+        }
     }
 
     void OnTriggerStay2D(Collider2D collider)
     {
-        controller.standing = true;
+        if (collider.tag.Contains("Ground"))
+        {
+            controller.standing = true;
+        }
     }
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        controller.standing = false;
+        if (collider.tag.Contains("Ground"))
+        {
+            controller.standing = false;
+        }
     }
 }

@@ -1062,6 +1062,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: {x: 1500, y: 2100}
   maxSpeed: {x: 15, y: 150}
+  speed: 0
+  jumpSpeed: 0
   portalLeft: {fileID: 0}
   portalRight: {fileID: 0}
 --- !u!114 &644908314259269881

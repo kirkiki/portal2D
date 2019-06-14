@@ -31,5 +31,7 @@ public class portailManager : MonoBehaviour
         CurrentVelocity.y = 0;
         portailToGo.GetComponent<Rigidbody2D>().velocity = CurrentVelocity;
         portailToGo.GetComponent<Rigidbody2D>().AddForce(portailToGo.transform.up * YVelocity, ForceMode2D.Impulse);
+
+
     }
 }

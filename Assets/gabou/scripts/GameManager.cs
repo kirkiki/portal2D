@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    static public int stageCount = 2;
+    static public int stageCount = 3;
     static public int stageUnlock = 1;
 
     public void Play()

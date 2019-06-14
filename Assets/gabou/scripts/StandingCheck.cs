@@ -13,7 +13,7 @@ public class StandingCheck : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.tag.Contains("Ground"))
+        if (collider.tag.Contains("Ground") || collider.tag.Contains("PortalZone"))
         {
             controller.standing = true;
         }
@@ -21,7 +21,7 @@ public class StandingCheck : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.tag.Contains("Ground"))
+        if (collider.tag.Contains("Ground") || collider.tag.Contains("PortalZone"))
         {
             controller.standing = true;
         }
@@ -29,7 +29,7 @@ public class StandingCheck : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.tag.Contains("Ground"))
+        if (collider.tag.Contains("Ground") || collider.tag.Contains("PortalZone"))
         {
             controller.standing = false;
         }

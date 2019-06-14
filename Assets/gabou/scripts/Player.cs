@@ -40,6 +40,12 @@ public class Player : MonoBehaviour
             }
             else
             {
+                if (Input.GetMouseButtonDown(2))
+                {
+                    if (portalLeft.activeSelf) { portalLeft.SetActive(false); }
+                    if (portalRight.activeSelf) { portalRight.SetActive(false); }
+
+                }
                 animator.SetBool("shooting", false);
             }
 
@@ -91,10 +97,13 @@ public class Player : MonoBehaviour
         animator.SetBool("shooting", true);
 
         var worldMousePosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
-        var direction = worldMousePosition - transform.position;
+        var playerPosition = transform.position;
+        //playerPosition.y += 2;
+        var worldPlayerPosition = Camera.main.ScreenToWorldPoint(new Vector3(playerPosition.x, playerPosition.y, 0));
+        var direction = worldMousePosition - playerPosition;
         direction.Normalize();
 
-        var hit = Physics2D.Raycast(transform.position, direction);
+        var hit = Physics2D.Raycast(playerPosition, direction);
         var collider = hit.collider;
 
         if (collider && collider.tag.Contains("PortalZone"))

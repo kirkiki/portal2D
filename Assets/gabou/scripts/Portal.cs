@@ -13,13 +13,15 @@ public class Portal : MonoBehaviour
         {
             teleportable.teleporting = true;
             var colliderTransform = collider.gameObject.GetComponent<Transform>();
+            var colliderBody2D = collider.gameObject.GetComponent<Rigidbody2D>();
             var otherPortailPosition = otherPortail.GetComponent<Transform>().position;
-            colliderTransform.position = new Vector3(otherPortailPosition.x + 1, otherPortailPosition.y + 1, otherPortailPosition.z);
-            Vector2 CurrentVelocity = collider.gameObject.GetComponent<Rigidbody2D>().velocity;
-            float YVelocity = Mathf.Abs(CurrentVelocity.y);
-            CurrentVelocity.y = 0;
-            collider.gameObject.GetComponent<Rigidbody2D>().velocity = CurrentVelocity;
-            collider.gameObject.GetComponent<Rigidbody2D>().AddForce(otherPortail.transform.up * YVelocity, ForceMode2D.Impulse);
+
+            colliderTransform.position = new Vector3(otherPortailPosition.x, otherPortailPosition.y, otherPortailPosition.z);
+            Vector2 currentVel = colliderBody2D.velocity;
+            float absVelY = Mathf.Abs(currentVel.y);
+            currentVel.y = 0;
+            colliderBody2D.velocity = currentVel;
+            colliderBody2D.AddForce(otherPortail.transform.up * absVelY, ForceMode2D.Impulse);
         }
     }
 

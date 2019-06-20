@@ -21,6 +21,7 @@ public class Portal : MonoBehaviour
             float absVelY = Mathf.Abs(currentVel.y);
             currentVel.y = 0;
             colliderBody2D.velocity = currentVel;
+            Debug.Log(absVelY);
             colliderBody2D.AddForce(otherPortail.transform.up * absVelY, ForceMode2D.Impulse);
         }
     }

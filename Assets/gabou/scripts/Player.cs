@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     public Vector2 maxSpeed = new Vector2(15, 25);
     public GameObject portalLeft;
     public GameObject portalRight;
+    public int speed;
+    public int maxJump;
 
     private Rigidbody2D body2D;
     private SpriteRenderer rendered2D;
@@ -66,29 +68,17 @@ public class Player : MonoBehaviour
         {
             var scale = transform.localScale;
 
+            body2D.velocity = new Vector2(controller.moving.x * speed, body2D.velocity.y);
             if (controller.moving.x != 0)
             {
-                body2D.AddForce(new Vector2(controller.moving.x, 0) * velocity.x);
                 scale.x = defaultScale * controller.moving.x;
             }
 
-            if (controller.standing && controller.moving.y > 0)
-            {
-                body2D.AddForce(Vector2.up * velocity.y);
-            }
-
-            if (Mathf.Abs(body2D.velocity.x) > maxSpeed.x)
-            {
-                var speed = body2D.velocity.x > 0 ? maxSpeed.x : -maxSpeed.x;
-                body2D.velocity = new Vector2(speed, body2D.velocity.y);
-            }
-            if (body2D.velocity.y > maxSpeed.y)
-            {
-                var speed = maxSpeed.y;
-                body2D.velocity = new Vector2(body2D.velocity.x, speed);
-            }
-
             transform.localScale = scale;
+            if (controller.standing)
+            {
+                body2D.velocity = new Vector2(body2D.velocity.x, controller.moving.y * maxJump);
+            }
         }
     }
 

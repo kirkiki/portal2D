@@ -1026,7 +1026,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 45
   m_Material: {fileID: 0}
   m_Interpolate: 1
   m_SleepingMode: 1
@@ -1062,10 +1062,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: {x: 1500, y: 2100}
   maxSpeed: {x: 15, y: 150}
-  speed: 0
-  jumpSpeed: 0
   portalLeft: {fileID: 0}
   portalRight: {fileID: 0}
+  speed: 100
+  maxJump: 195
 --- !u!114 &644908314259269881
 MonoBehaviour:
   m_ObjectHideFlags: 0

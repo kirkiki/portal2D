@@ -5,12 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    static public int stageCount = 5;
+    static public int stageCount = 8;
     static public int stageUnlock = 1;
+
+    public GameObject levelsScreen;
 
     public void Play()
     {
         SceneManager.LoadScene("Stage_" + stageUnlock);
+    }
+
+    public void OpenLevels()
+    {
+        levelsScreen.SetActive(true);
+    }
+
+    public void CloseLevels()
+    {
+        levelsScreen.SetActive(false);
     }
 
     public void Quit()

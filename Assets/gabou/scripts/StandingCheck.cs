@@ -14,7 +14,6 @@ public class StandingCheck : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.tag.Contains("Ground") || collider.tag.Contains("PortalZone"))
-            Debug.Log(1);
         {
             controller.standing = true;
         }

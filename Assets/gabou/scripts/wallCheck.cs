@@ -17,7 +17,6 @@ public class wallCheck : MonoBehaviour
         {
             controller.wall = true;
         }
-
         if (collider.tag.Contains("PortalZone"))
         {
             controller.portail = true;

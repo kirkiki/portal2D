@@ -1603,7 +1603,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: faire le tour -->
+  m_Text: Faire le tour =>
 --- !u!222 &970448580
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1620,7 +1620,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970448577}
-  m_Text: faire le tour -->
+  m_Text: Faire le tour =>
   m_OffsetZ: 0
   m_CharacterSize: 17.96
   m_LineSpacing: 1
@@ -1786,7 +1786,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260.4, y: 112.5}
+  m_AnchoredPosition: {x: -268.2, y: 91.4}
   m_SizeDelta: {x: 200, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1135370418
@@ -1822,7 +1822,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "tirez sur les zone blanches\n                          -->"
+  m_Text: Tirer sur les zones blanches =>
 --- !u!222 &1135370419
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1839,7 +1839,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135370416}
-  m_Text: "tirez sur les zone blanches\n                                      -->"
+  m_Text: Tirer sur les zones blanches =>
   m_OffsetZ: 0
   m_CharacterSize: 12.06
   m_LineSpacing: 1
@@ -4118,7 +4118,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.2, y: -5.8}
+  m_AnchoredPosition: {x: -21.2, y: -39.7}
   m_SizeDelta: {x: 200, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2095272228
@@ -4154,7 +4154,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "tirer i\xE7i puis revenir au depart\n<--"
+  m_Text: <= Tirer ici puis revenir au premier portail
 --- !u!222 &2095272229
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4171,7 +4171,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095272226}
-  m_Text: "tirer i\xE7i puis revenir au depart\n<--"
+  m_Text: <= Tirer ici puis revenir au premier portail
   m_OffsetZ: 0
   m_CharacterSize: 11.65
   m_LineSpacing: 1

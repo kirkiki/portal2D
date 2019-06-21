@@ -16,7 +16,7 @@ public class Portal : MonoBehaviour
             var colliderBody2D = collider.gameObject.GetComponent<Rigidbody2D>();
             var otherPortailPosition = otherPortail.GetComponent<Transform>().position;
 
-            colliderTransform.position = otherPortailPosition + otherPortail.transform.right * 10;
+            colliderTransform.position = otherPortailPosition + otherPortail.transform.right * 25;
             //Vector2 currentVel = colliderBody2D.velocity;
             //float absVelY = Mathf.Abs(currentVel.y);
             //currentVel.y = 0;

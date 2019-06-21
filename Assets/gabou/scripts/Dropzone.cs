@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Dropzone : MonoBehaviour
 {
-    public bool active = false;
+    public bool isActive = false;
 
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.tag.Contains("Ball"))
         {
-            active = true;
+            isActive = true;
         }
     }
 
@@ -18,7 +18,7 @@ public class Dropzone : MonoBehaviour
     {
         if (collider.tag.Contains("Ball"))
         {
-            active = true;
+            isActive = true;
         }
     }
 
@@ -26,7 +26,7 @@ public class Dropzone : MonoBehaviour
     {
         if (collider.tag.Contains("Ball"))
         {
-            active = false;
+            isActive = false;
         }
     }
 }

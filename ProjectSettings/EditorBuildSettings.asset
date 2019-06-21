@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/gabou/scenes/Stage_5.unity
     guid: ec05b4982b4eca94a8aa739e7cdc0758
+  - enabled: 1
+    path: Assets/gabou/scenes/Stage_6.unity
+    guid: 1dfd3143e1b6de04ca4340c75168cade
+  - enabled: 1
+    path: Assets/gabou/scenes/Stage_7.unity
+    guid: 2b35c62c6e0ad6742b4b25d3eb601577
+  - enabled: 1
+    path: Assets/gabou/scenes/Stage_8.unity
+    guid: de83abad06dd6664f9f7597c77861824
   m_configObjects: {}

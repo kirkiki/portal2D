@@ -17,6 +17,12 @@ public class wallCheck : MonoBehaviour
         {
             controller.wall = true;
         }
+
+        if (collider.tag.Contains("PortalZone"))
+        {
+            controller.portail = true;
+        }
+
     }
 
     void OnTriggerStay2D(Collider2D collider)
@@ -25,6 +31,10 @@ public class wallCheck : MonoBehaviour
         {
             controller.wall = true;
         }
+        if (collider.tag.Contains("PortalZone"))
+        {
+            controller.portail = true;
+        }
     }
 
     void OnTriggerExit2D(Collider2D collider)
@@ -32,6 +42,10 @@ public class wallCheck : MonoBehaviour
         if (collider.tag.Contains("Ground"))
         {
             controller.wall = false;
+        }
+        if (collider.tag.Contains("PortalZone"))
+        {
+            controller.portail = false;
         }
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     static public int stageCount = 9;
-    static public int stageUnlock = 1;
+    static public int stageUnlock = 9;
 
     public GameObject levelsScreen;
 

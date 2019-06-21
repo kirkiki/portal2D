@@ -1152,6 +1152,7 @@ MonoBehaviour:
   moving: {x: 0, y: 0}
   standing: 0
   wall: 0
+  portail: 0
 --- !u!114 &4351014904876002249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1657,7 +1658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8831277075722286012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.321, y: 0.85, z: 0}
+  m_LocalPosition: {x: 0.558, y: 0.85, z: 0}
   m_LocalScale: {x: 1.3516992, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 573515726941351288}

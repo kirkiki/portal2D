@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
             var scale = transform.localScale;
             if(!controller.wall)
                 body2D.velocity = new Vector2(controller.moving.x * speed, body2D.velocity.y);
-            else
+            else if(controller.wall && !controller.portail)
                 body2D.velocity = new Vector2(0, body2D.velocity.y);
             if (controller.moving.x != 0)
             {
@@ -77,7 +77,7 @@ public class Player : MonoBehaviour
             }
 
             transform.localScale = scale;
-            if (controller.standing)
+            if (controller.standing )
             {
                 body2D.velocity = new Vector2(body2D.velocity.x, controller.moving.y * maxJump);
             }

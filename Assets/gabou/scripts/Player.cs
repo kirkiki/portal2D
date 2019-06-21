@@ -67,8 +67,10 @@ public class Player : MonoBehaviour
         if (!stage.paused && !stage.lost && !stage.ended)
         {
             var scale = transform.localScale;
-
-            body2D.velocity = new Vector2(controller.moving.x * speed, body2D.velocity.y);
+            if(!controller.wall)
+                body2D.velocity = new Vector2(controller.moving.x * speed, body2D.velocity.y);
+            else
+                body2D.velocity = new Vector2(0, body2D.velocity.y);
             if (controller.moving.x != 0)
             {
                 scale.x = defaultScale * controller.moving.x;

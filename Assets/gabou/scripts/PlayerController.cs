@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public Vector2 moving = new Vector2();
     public bool standing;
-
+    public bool wall;
     private Rigidbody2D body2D;
     
     void Start()

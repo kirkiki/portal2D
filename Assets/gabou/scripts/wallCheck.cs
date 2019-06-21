@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StandingCheck : MonoBehaviour
+public class wallCheck : MonoBehaviour
 {
     private PlayerController controller;
-    
+
     void Start()
     {
         controller = GetComponentInParent<PlayerController>();
@@ -13,26 +13,25 @@ public class StandingCheck : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.tag.Contains("Ground") || collider.tag.Contains("PortalZone"))
-            Debug.Log(1);
+        if (collider.tag.Contains("Ground") )
         {
-            controller.standing = true;
+            controller.wall = true;
         }
     }
 
     void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.tag.Contains("Ground") || collider.tag.Contains("PortalZone"))
+        if (collider.tag.Contains("Ground") )
         {
-            controller.standing = true;
+            controller.wall = true;
         }
     }
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.tag.Contains("Ground") || collider.tag.Contains("PortalZone"))
+        if (collider.tag.Contains("Ground"))
         {
-            controller.standing = false;
+            controller.wall = false;
         }
     }
 }

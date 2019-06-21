@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/gabou/scenes/Stage_8.unity
     guid: de83abad06dd6664f9f7597c77861824
+  - enabled: 1
+    path: Assets/gabou/scenes/Stage_9.unity
+    guid: f73cd76c4d4967445b65c738873fb456
   m_configObjects: {}

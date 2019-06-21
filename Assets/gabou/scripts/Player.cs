@@ -71,6 +71,9 @@ public class Player : MonoBehaviour
                 body2D.velocity = new Vector2(controller.moving.x * speed, body2D.velocity.y);
             else if(controller.wall && !controller.portail)
                 body2D.velocity = new Vector2(0, body2D.velocity.y);
+            else
+                body2D.velocity = new Vector2(controller.moving.x * speed, body2D.velocity.y);
+
             if (controller.moving.x != 0)
             {
                 scale.x = defaultScale * controller.moving.x;

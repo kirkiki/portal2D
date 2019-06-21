@@ -13,16 +13,25 @@ public class EndCheck : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        manager.ended = true;
+        if (collider.tag.Contains("Player"))
+        {
+            manager.ended = true;
+        }
     }
 
     void OnTriggerStay2D(Collider2D collider)
     {
-        manager.ended = true;
+        if (collider.tag.Contains("Player"))
+        {
+            manager.ended = true;
+        }
     }
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        manager.ended = false;
+        if (collider.tag.Contains("Player"))
+        {
+            manager.ended = false;
+        }
     }
 }
